@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+main{
+    background-image: linear-gradient(black, gray);
+    background-repeat: no-repeat;
+}
+
+.text-sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#title-01{
+    font-size: 80px;
+    text-align: center;
+    color: #FFF;
+}
+
+#sobre{
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'great-vibes';
+    text-align: justify;
+}
+
+#img-01{
+    margin-top: 50px;
+}
