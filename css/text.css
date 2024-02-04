@@ -1,8 +1,22 @@
 @import url('https://fonts.cdnfonts.com/css/cloister-black');
 @import url('https://fonts.cdnfonts.com/css/great-vibes');
 
-h1{
-    font-family: 'Cloister Black', sans-serif;                          
+#title-01{
+    position: relative;
+
+    font-family: 'Cloister Black', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #FFF;
+
+    transition: 0.5s;
+}
+
+#sub-title-01{
+    font-family: 'Cloister Black', sans-serif;
+    color: #FFF;
+    font-size: 70px;
+    text-align: center;
 }
 
 h3{
@@ -10,4 +24,62 @@ h3{
     text-align: left;
 }
 
+#prod-desc{
+    position: relative;
 
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 0;
+}
+
+#price{
+    margin: 0;
+    margin-top: 2px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* ANIMAÇÕES */
+#title-01::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+    transition: 0.4s;
+}
+
+#title-01:hover{
+    color: #FFF;
+    cursor: default;
+}
+
+#title-01:hover::after{
+    width: 100%;
+}
+
+
+#prod-desc::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+
+    transition: 0.4s;
+}
+
+#prod-desc:hover{
+    color: #FFF;
+    cursor: default;
+}
+
+#prod-desc:hover::after{
+    width: 56%;
+}

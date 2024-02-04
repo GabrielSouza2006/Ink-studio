@@ -15,12 +15,6 @@ main{
     justify-content: space-around;
 }
 
-#title-01{
-    font-size: 80px;
-    text-align: center;
-    color: #FFF;
-}
-
 #sobre{
     margin-top: 50px;
     color: white;
@@ -29,6 +23,50 @@ main{
     text-align: justify;
 }
 
+.home-loja{
+    margin-top: 100px;
+}
+
 #img-01{
-    margin-top: 50px;
+    margin-top: 80px;
+}
+
+.car{
+    width: 300px;
+}
+
+.car-img{
+    padding: 40px;
+}
+
+#prod-01{
+    width: 200px;
+    border: 2px;
+    border-color: #000;
+    border-style: solid;
+
+    transition: 0.5s;
+}
+
+#prod-01:hover{
+    width: 220px;
+    box-shadow: 1px 1px 5px 5px #2a0042;
+}
+
+#prod-02{
+    width: 180px;
+    border: 2px;
+    border-color: #000;
+    border-style: solid;
+
+    transition: 0.5s;
+}
+
+#prod-02:hover{
+    width: 200px;
+    box-shadow: 1px 1px 5px 5px #2a0042;
+}
+
+#stars{
+    width: 130px;
 }
