@@ -82,6 +82,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container text-center">
+                <button class="btn-home">Ir para a loja</button>
+            </div>
+        </section>
+
+        <section class="container-fluid home-empl">
+            <div class="container">
+                <h1 id="title-01">Profissionais</h1> <br>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/p1.jpeg" alt="" id="img-empl">
+                        <p id="empl-desc">José Alberto</p>
+                    </div>
+                    <div class="col">
+                        <img src="images/p2.jpeg" alt="" id="img-empl">
+                        <p id="empl-desc">Carlos Steves</p>
+                    </div>
+                    <div class="col">
+                        <img src="images/p4.jpeg" alt="" id="img-empl">
+                        <p id="empl-desc">Alessandra Rosaria</p>
+                    </div>
+                    <div class="col">
+                        <img src="images/p5.jpeg" alt="" id="img-empl">
+                        <p id="empl-desc">Maria Katarina</p>
+                    </div>
+                    <div class="col">
+                        <img src="images/p6.jpeg" alt="" id="img-empl">
+                        <p id="empl-desc">Adalberto</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

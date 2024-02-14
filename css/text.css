@@ -41,28 +41,6 @@ h3{
 }
 
 /* ANIMAÇÕES */
-#title-01::after{
-    content: " ";
-    width: 0%;
-    height: 3px;
-    background-color: #FFF;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-
-    transition: 0.4s;
-}
-
-#title-01:hover{
-    color: #FFF;
-    cursor: default;
-}
-
-#title-01:hover::after{
-    width: 100%;
-}
-
-
 #prod-desc::after{
     content: " ";
     width: 0%;

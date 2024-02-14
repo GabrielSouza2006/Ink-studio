@@ -5,7 +5,7 @@
 }
 
 main{
-    background-image: linear-gradient(black, gray);
+    background-image: linear-gradient(black, rgb(54, 54, 54));
     background-repeat: no-repeat;
 }
 
@@ -25,6 +25,10 @@ main{
 
 .home-loja{
     margin-top: 100px;
+}
+
+.home-empl{
+    margin-top: 200px;
 }
 
 #img-01{
@@ -50,7 +54,7 @@ main{
 
 #prod-01:hover{
     width: 220px;
-    box-shadow: 1px 1px 5px 5px #2a0042;
+    box-shadow: 1px 1px 5px 5px #2a00428e;
 }
 
 #prod-02{
@@ -64,9 +68,52 @@ main{
 
 #prod-02:hover{
     width: 200px;
-    box-shadow: 1px 1px 5px 5px #2a0042;
+    box-shadow: 1px 1px 5px 5px #2a00428e;
 }
 
 #stars{
     width: 130px;
+}
+
+.btn-home{
+    margin-top: 50px;
+    padding: 10px 35px 10px 35px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: 500;
+
+    transition: 1s;
+}
+
+.btn-home:hover{
+    background-color: #FFF;
+    color: black;
+}
+
+
+#img-empl{
+    width: 220px;
+
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: #FFF;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+#empl-desc{
+    margin-top: 12px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+
+
+@media (max-width: 360px) {
+    #title-01{
+        font-size: 60px !important;
+    }
 }

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+.link-nav{
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+
+    transition: 0.5s;
+}
+
+.link-nav:hover{
+    font-size: 25px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.main{
+    background-color: #000;
+}
